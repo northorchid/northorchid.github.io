@@ -18,7 +18,7 @@
 #     'body': 'console.log $1'
 ```
 * `.source.coffee`:表示所支持的语言，每一语言的表示都不一样，在Atom里面这个表示被称作为`scope`，比如我们要为html自定义代码片段，我们先要找到html语言的`scope`,在packages里面搜索`langurage-html`，查看详情就可以看到html的`scope`是`.text.html.basic`  
-![scope](./Atom2.png)  
+![scope](./atom2.png)  
 * `Console log`:表示的是名称，随便取名  
 * `prefix`:表示代码的简写,示例中简写是`log`  
 * `body`:表示简写所代表的代码片段,`$1` 表示光标将定位的输入的第`1`个位置，这个值可以定义多个`$1 $2 $3`，也可以不定义    
@@ -40,4 +40,7 @@
 相比于Vim和Jetbrains，Atom的snippet插件很有很多不足的地方。   
 例如  
 * 对符号的支持。不支持`input:text`这种简写有分号和其他符号的形式(支持`-`,`=`)  [vim和jetbrains均支持]
-* 不支持有变量的简写。如`div#container`代表<div id="container"></div>，这个id是可变的 [仅jetbrains支持]
+* 不支持有变量的简写。如`div#container`代表`<div id="container"></div>`，这个id是可变的 [仅jetbrains支持]
+
+
+<div>sdfsd</div>
