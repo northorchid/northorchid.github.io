@@ -41,6 +41,3 @@
 例如  
 * 对符号的支持。不支持`input:text`这种简写有分号和其他符号的形式(支持`-`,`=`)  [vim和jetbrains均支持]
 * 不支持有变量的简写。如`div#container`代表`<div id="container"></div>`，这个id是可变的 [仅jetbrains支持]
-
-
-<div>sdfsd</div>
